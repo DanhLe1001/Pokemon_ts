@@ -61,6 +61,7 @@ class PokemonData {
 }
 //let root = document.getElementById("app");
 
+console.log(pokemon);
 
 //////////////////////////
 
