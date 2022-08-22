@@ -34,6 +34,9 @@ class PokemonData {
     }
     fetchData = async (root: HTMLElement) => {
 
+
+
+
         for (let i = 1; i <= 20; i++) {
             let data: Response = await fetch(`https://pokeapi.co/api/v2/pokemon/${i}`); // lay thong ten internet let pokemon: any=await
             let pokemon: any = await data.json();
