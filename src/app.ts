@@ -61,13 +61,14 @@ class PokemonData {
 }
 //let root = document.getElementById("app");
 
+
+//////////////////////////
+////////////////////////
+
+
 let root = <HTMLElement>document.getElementById('app');
 
 if (root) {
     let header: PokemonData = new PokemonData();
     header.fetchData(root);
 }
-//////////////////////////
-
-
-
