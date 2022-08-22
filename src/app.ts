@@ -72,3 +72,8 @@ if (root) {
     let header: PokemonData = new PokemonData();
     header.fetchData(root);
 }
+let root = <HTMLElement>document.getElementById('app');
+
+if (root) {
+    let header: PokemonData = new PokemonData();
+    header.fetchData(root);
