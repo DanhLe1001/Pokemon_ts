@@ -38,8 +38,6 @@ class PokemonData {
             let data: Response = await fetch(`https://pokeapi.co/api/v2/pokemon/${i}`); // lay thong ten internet let pokemon: any=await
             let pokemon: any = await data.json();
             console.log(pokemon);
-
-
             let { name: pokename, url } = pokemon.abilities[0].ability;
             let { front_default: imageUrl } = pokemon.sprites;
             let { name: type } = pokemon.type[0].type;
